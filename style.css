@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.informacoes {
+    background-color: red;
+    height: 5rem;
+    margin: 0px;
+    columns: 2;
+}
+
+.paginas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 5rem;
+}
+
+.logo {
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    height: 5rem;
+}

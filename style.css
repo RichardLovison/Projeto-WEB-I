@@ -5,3 +5,172 @@ section {
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    background: linear-gradient(180deg, #C29287 9.95%, #C99A90 24.51%, #D1A59A 35.54%, #D5A99F 46.56%, #DA958B 57.58%, #E9655D 74.12%);
+}
+
+#quemSomos h1 {
+    width: 670px;
+    height: 80px;
+    top: 340px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: right;
+    color: #4D0806;
+}
+
+#quemSomos p {
+    width: 670px;
+    height: 254px;
+    top: 460px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: right;
+    color: #4D0806;
+}
+
+#porqueNos h1 {
+    width: 670px;
+    height: 80px;
+    top: 340px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: right;
+    color: #4D0806;
+}
+
+#porqueNos p {
+    width: 670px;
+    height: 254px;
+    top: 460px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: right;
+    color: #4D0806;
+}
+
+#diferenciais h1 {
+    width: 800px;
+    height: 100px;
+    top: 1380px;
+    left: 350px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: center;
+    color: #4D0806;
+}
+
+#comentarios p {
+    width: 1210px;
+    height: 144px;
+    top: 2188px;
+    left: 145px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #4D0806;
+}
+
+.comoAgendar h1 {
+    width: 1266px;
+    height: 80px;
+    top: 2540px;
+    left: 95px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: center;
+    color: #4D0806;
+}
+
+.comoAgendar p {
+    width: 1210px;
+    height: 144px;
+    top: 2676px;
+    left: 145px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #4D0806;
+}
+
+.contato {
+    width: 600px;
+    height: 108px;
+    top: 3022px;
+    left: 450px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #4D0806;
+}
+
+.email {
+    width: 600px;
+    height: 108px;
+    top: 3022px;
+    left: 450px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    width: 620px;
+    height: 50px;
+    top: 3320px;
+    left: 440px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Josefin Slab;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #4D0806;
+}

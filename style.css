@@ -43,8 +43,8 @@ body {
 #porqueNos h1 {
     width: 885px;
     height: 92.4px;
-    top: 1026px;
-    left: 1233px;
+    top: 1030px;
+    left: 1227px;
     gap: 0px;
     opacity: 0px;
     font-family: Josefin Slab;
@@ -56,16 +56,16 @@ body {
 }
 
 #porqueNos p {
-    width: 670px;
-    height: 254px;
-    top: 460px;
-    left: 80px;
+    width: 885px;
+    height: 293.36px;
+    top: 1213.64px;
+    left: 1227px;
     gap: 0px;
     opacity: 0px;
     font-family: Josefin Slab;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 600;
-    line-height: 36px;
+    line-height: 48px;
     text-align: right;
     color: #4D0806;
 }
@@ -73,23 +73,23 @@ body {
 #diferenciais h1 {
     width: 800px;
     height: 100px;
-    top: 1380px;
-    left: 350px;
+    top: 1600px;
+    left: 1062px;
     gap: 0px;
     opacity: 0px;
-    font-family: Josefin Slab;
+    font-family: jsMath-cmbx10;
     font-size: 96px;
-    font-weight: 600;
-    line-height: 96px;
+    font-weight: 700;
+    line-height: 105.02px;
     text-align: center;
     color: #4D0806;
 }
 
 #comentarios p {
-    width: 1210px;
-    height: 144px;
-    top: 2188px;
-    left: 145px;
+    width: 1299.4px;
+    height: 169.71px;
+    top: 1906.14px;
+    left: 765.25px;
     gap: 0px;
     opacity: 0px;
     font-family: Josefin Slab;
@@ -101,12 +101,13 @@ body {
 }
 
 .comoAgendar h1 {
-    width: 1266px;
+    width: 700px;
     height: 80px;
-    top: 2540px;
-    left: 95px;
+    top: 2731px;
+    left: 940px;
     gap: 0px;
-    opacity: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0.4px;
     font-family: Josefin Slab;
     font-size: 96px;
     font-weight: 600;
@@ -117,24 +118,24 @@ body {
 
 .comoAgendar p {
     width: 1210px;
-    height: 144px;
-    top: 2676px;
-    left: 145px;
+    height: 160px;
+    top: 2869px;
+    left: 685px;
     gap: 0px;
     opacity: 0px;
     font-family: Josefin Slab;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
-    line-height: 36px;
+    line-height: 40px;
     text-align: center;
     color: #4D0806;
 }
 
 .contato {
-    width: 600px;
+    width: 707.69px;
     height: 108px;
-    top: 3022px;
-    left: 450px;
+    top: 3262px;
+    left: 788px;
     gap: 0px;
     opacity: 0px;
     font-family: Josefin Slab;
@@ -146,10 +147,10 @@ body {
 }
 
 .email {
-    width: 600px;
+    width: 707.69px;
     height: 108px;
-    top: 3022px;
-    left: 450px;
+    top: 3262px;
+    left: 788px;
     gap: 0px;
     opacity: 0px;
     font-family: Josefin Slab;

@@ -1,15 +1,21 @@
-section {
-    height: 1000px;
+body{
+    background-color: #f3f3f3;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body {
+.fundo {
     background: linear-gradient(180deg, #C29287 9.95%, #C99A90 24.51%, #D1A59A 35.54%, #D5A99F 46.56%, #DA958B 57.58%, #E9655D 74.12%);
+    border-radius: 40px;
 }
 
+section {
+    height: 1000px;
+}
+
+/*
 #quemSomos h1 {
     width: 855px;
     height: 102px;
@@ -175,3 +181,5 @@ footer {
     text-align: center;
     color: #4D0806;
 }
+
+*/

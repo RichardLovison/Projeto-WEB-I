@@ -1,5 +1,6 @@
 body{
     background-color: #f3f3f3;
+    margin: 0;
 }
 
 html {
@@ -15,6 +16,30 @@ section {
     height: 1000px;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+    height: 220px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 1fr;
+}
+
+header{
+    height: 220px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
 /*
 #quemSomos h1 {
     width: 855px;

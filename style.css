@@ -108,10 +108,6 @@ main img{
     margin-left: 200px;    
 }
 
-#diferenciais img {
-    margin-left: 200px;    
-}
-
 .fixed-image {
     position: fixed;
     bottom: 10px;
@@ -120,4 +116,88 @@ main img{
     height: auto;
     z-index: 5;
     margin: 50px;
+}
+
+#diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative; /* Adiciona o contexto de posicionamento relativo */
+}
+
+.oQueDizem {
+    position: absolute;
+    left: 0; /* Posiciona a div à esquerda */
+    top: 0;
+}
+
+#diferenciais img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.comentarios {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 1.1em;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#comoAgendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+#comoAgendar img {
+    max-width: 100px; /* Ajuste a largura da imagem conforme necessário */
+    height: auto;
+    align-self: flex-start; /* Alinha a imagem ao topo do contêiner */
+}
+
+#comoAgendar .conteudo {
+    max-width: 600px; /* Define uma largura máxima para o texto */
+}
+
+#comoAgendar h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#comoAgendar p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #4D0806; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto para branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaçamento interno */
+    font-size: 1.1em; /* Ajusta o tamanho da fonte */
+}
+
+footer .contato,
+footer .email {
+    margin-bottom: 15px; /* Espaçamento entre as seções de contato e email */
+}
+
+footer p {
+    margin: 0;
 }

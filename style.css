@@ -1,3 +1,9 @@
+
+* {
+    padding: 0;
+    margin: 0;font-family: 'Josefin Slab';
+}
+
 body{
     background-color: #f3f3f3;
     margin: 0;
@@ -10,201 +16,108 @@ html {
 .fundo {
     background: linear-gradient(180deg, #C29287 9.95%, #C99A90 24.51%, #D1A59A 35.54%, #D5A99F 46.56%, #DA958B 57.58%, #E9655D 74.12%);
     border-radius: 40px;
+    margin: 10px 0px 10px 10px;
 }
 
-section {
-    height: 1000px;
-}
-
-header {
+.container-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-size: 40px;
-    height: 220px;
-}
-
-.logo {
+.logo, .efeito-header {
     display: flex;
     align-items: center;
-    width: 1fr;
 }
 
-header{
-    height: 220px;
+.navbar {
     display: flex;
-    grid-template-columns: 1fr 1fr;
-}
-/*
-#quemSomos h1 {
-    width: 855px;
-    height: 102px;
-    top: 349px;
-    left: 202px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
-    font-size: 96px;
-    font-weight: 600;
-    line-height: 96px;
-    text-align: right;
-    color: #4D0806;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-#quemSomos p {
-    width: 855px;
-    height: 324px;
-    top: 502px;
-    left: 202px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 48px;
-    text-align: right;
-    color: #4D0806;
-}
-
-#porqueNos h1 {
-    width: 885px;
-    height: 92.4px;
-    top: 1030px;
-    left: 1227px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
-    font-size: 96px;
-    font-weight: 600;
-    line-height: 96px;
-    text-align: right;
-    color: #4D0806;
-}
-
-#porqueNos p {
-    width: 885px;
-    height: 293.36px;
-    top: 1213.64px;
-    left: 1227px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 48px;
-    text-align: right;
-    color: #4D0806;
-}
-
-#diferenciais h1 {
-    width: 800px;
-    height: 100px;
-    top: 1600px;
-    left: 1062px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: jsMath-cmbx10;
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 105.02px;
-    text-align: center;
-    color: #4D0806;
-}
-
-#comentarios p {
-    width: 1299.4px;
-    height: 169.71px;
-    top: 1906.14px;
-    left: 765.25px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 36px;
-    text-align: left;
-    color: #4D0806;
-}
-
-.comoAgendar h1 {
-    width: 700px;
-    height: 80px;
-    top: 2731px;
-    left: 940px;
-    gap: 0px;
-    border: 2px 0px 0px 0px;
-    opacity: 0.4px;
-    font-family: Josefin Slab;
-    font-size: 96px;
-    font-weight: 600;
-    line-height: 96px;
-    text-align: center;
-    color: #4D0806;
-}
-
-.comoAgendar p {
-    width: 1210px;
-    height: 160px;
-    top: 2869px;
-    left: 685px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
+a {
+    list-style: none;
+    color: #f3f3f3;
+    padding: 3rem;
     font-size: 40px;
-    font-weight: 600;
-    line-height: 40px;
-    text-align: center;
-    color: #4D0806;
+    text-decoration: none;
 }
 
-.contato {
-    width: 707.69px;
-    height: 108px;
-    top: 3262px;
-    left: 788px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 32px;
-    text-align: center;
-    color: #4D0806;
+ul {
+    display: flex;
+    list-style: none;
 }
 
-.email {
-    width: 707.69px;
-    height: 108px;
-    top: 3262px;
-    left: 788px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 32px;
-    text-align: center;
-    color: white;
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-footer {
-    width: 620px;
-    height: 50px;
-    top: 3320px;
-    left: 440px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Josefin Slab;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: center;
-    color: #4D0806;
+::-webkit-scrollbar-thumb {
+    width: 20px;
+    background-color: #d5a99fcc;
+    border-radius: 100rem;
 }
 
-*/
+main {
+    display: grid;
+    columns: 2;
+    grid-template-columns: 1fr;
+}
+
+#quemSomos {
+    display: flex;
+    height: 580px;
+    margin-top: 50px;
+}
+
+#quemSomos .texto {
+    font-size: 48px;
+    text-align: end;
+    width: 855px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#quemSomos img {
+    margin-left: 200px;    
+}
+
+main img{
+    display: flex;
+    max-width: 850px;
+    max-height: 580px;
+}
+
+.porqueNos {
+    display: flex;
+    height: 580px;
+    margin-top: 50px;
+}
+
+.porqueNos .texto {
+    font-size: 48px;
+    text-align: start;
+    width: 855px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.porqueNos img {
+    margin-left: 200px;    
+}
+
+#diferenciais img {
+    margin-left: 200px;    
+}
+
+.fixed-image {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+    z-index: 5;
+    margin: 50px;
+}

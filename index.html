@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>NailWeb</title>
 </head>
@@ -13,35 +16,48 @@
     <div class="fundo">
 
         <header>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#quemSomos">Sobre</a></li>
-                    <li><a href="#diferenciais">Diferencial</a></li>
-                    <li><a href="#comoAgendar">Contato</a></li>
-                </ul>
-            </nav>
+
+            <div class="container-header">
+
+                <img class="logo" src="./img/header/logo.svg" alt="logo" img>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#quemSomos">Sobre</a></li>
+                        <li><a href="#diferenciais">Diferencial</a></li>
+                        <li><a href="#comoAgendar">Contato</a></li>
+                    </ul>
+                </nav>
+                <img class="efeito-header" src="./img/header/efeito.svg" alt="efeito">
+            </div>
+
         </header>
 
         <main>
 
-            <section id="quemSomos">
-                <h1>Quem Somos</h1>
-                <p>Prazer! Somos a NailWeb, especialista em agendamentos online para clientes, visando o serviço prestado como manicure e pedicure aos estabelecimentos parceiros. </p>
+            <section id="quemSomos"> <!-- comentário -->
+                <div class="texto">
+                    <h1>Quem Somos?</h1> <br>
+                    <p>Prazer! Somos a NailWeb, especialista em agendamentos online para clientes, visando o serviço prestado como manicure e pedicure aos estabelecimentos <br> parceiros.</p>
+                </div>
                 <img src="./img/main/img. sobre.png" alt="Quem Somos">
             </section>
 
             <section class="porqueNos">
-                <h1>Por quê nós?</h1>
-                <p>Afinal, por qual motivo escolher a Nail Web? Se Você, empreendedor(a) deseja aumentar seus agendamentos com mais facilidade, visibilidade e segurança, entre em contato conosco. Preparado para crescermos juntos?</p>
                 <img src="./img/main/img, nós.png" alt="Por quê nós?">
+                <div class="texto">
+                    <h1>Por quê nós?</h1> <br>
+                    <p>Afinal, por qual motivo escolher a Nail Web? Se Você, empreendedor(a) deseja aumentar seus agendamentos com mais facilidade, visibilidade e segurança, entre em contato conosco. Preparado para crescermos juntos?</p>
+                </div>
             </section>
 
             <section id="diferenciais">
+                <div class="oQueDizem">
+                    <img src="./img/main/h2 diferenciais.svg">
+                </div>
                 <h1>Nossos diferenciais</h1>
                 <div class="diferenciais-img">
                     <img src="./img/main/img. diferenciais 1.png" alt="Diferencial 1">
                     <img src="./img/main/img. diferenciais 2.png" alt="Diferencial 2">
-
                 </div>
             </section>
 
@@ -53,6 +69,10 @@
                 <h1>Como Agendar?</h1>
                 <p>Para realizar agendamentos, é muito simples! Basta clicar no ícone do WhatsApp, digitar seu nome completo, dia e horário que deseja ser atendido. Após, basta aguardar e uma equipe pronta para lhe atender responderá confirmando seu horário.</p>
             </section>
+
+            <a href="https://wa.me/5554999122978?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" target="_blank">
+                <img src="./img/main/WhatsApp.svg" alt="Imagem Fixa" class="fixed-image">
+            </a>
 
         </main>
 
